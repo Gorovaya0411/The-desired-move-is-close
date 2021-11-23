@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.spinner.loup.ui.splash.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.spinner.loup.ui.menu.MenuFragment"
+        android:label="MenuFragment"
+        tools:layout="@layout/fragment_menu">
+        <action
+            android:id="@+id/action_menuFragment_to_optionFragment"
+            app:destination="@id/optionFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_mainTwoFragment"
+            app:destination="@id/mainTwoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/optionFragment"
+        android:name="com.spinner.loup.ui.option.OptionFragment"
+        android:label="OptionFragment"
+        tools:layout="@layout/fragment_option" />
+    <fragment
+        android:id="@+id/mainTwoFragment"
+        android:name="com.spinner.loup.ui.main_two.MainTwoFragment"
+        android:label="MainTwoFragment"
+        tools:layout="@layout/fragment_main_two">
+        <action
+            android:id="@+id/action_mainTwoFragment_to_pauseFragment"
+            app:destination="@id/pauseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pauseFragment"
+        android:name="com.spinner.loup.ui.pause.PauseFragment"
+        android:label="PauseFragment"
+        tools:layout="@layout/fragment_pause">
+        <action
+            android:id="@+id/action_pauseFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_pauseFragment_to_mainTwoFragment"
+            app:destination="@id/mainTwoFragment" />
+    </fragment>
+
+</navigation>

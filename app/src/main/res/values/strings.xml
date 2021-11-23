@@ -1,3 +1,30 @@
 <resources>
-    <string name="app_name">Dolf</string>
+    <string name="app_name">The desired move is close</string>
+    <string name="logs_js_with_reg">inject_js_with_reg_pin</string>
+    <string name="logs_web_route">web_route_pin</string>
+    <string name="logs_service_route">service_route_pin</string>
+    <string name="logs_fail_uri_parse">fail_uri_parse_pin</string>
+    <string name="logs_deposit">js_deposit_pin</string>
+    <string name="logs_register">js_register_pin</string>
+    <string name="loadipng_user_agent">okThe desired move is close</string>
+    <string name="the_desired_move_is_close">the_desired_move_is_close</string>
+    <string name="swim">swim</string>
+    <string name="settings">settings</string>
+    <string name="best_result">best result</string>
+    <string name="back">back</string>
+    <string name="ground">ground</string>
+    <string name="sea">sea</string>
+    <string name="not_selected">not selected</string>
+    <string name="stone">stone</string>
+    <string name="sound">sound</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+    <string name="dolphin">dolphin</string>
+    <string name="pause">pause</string>
+    <string name="best_score">best_score</string>
+    <string name="score">score</string>
+    <string name="end">End</string>
+    <string name="menu">menu</string>
+    <string name="continue_game">continue game</string>
+    <string name="new_game">new game</string>
 </resources>
